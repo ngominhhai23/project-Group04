@@ -2189,3 +2189,8 @@ textarea.input {
     margin-top: 10px;
   }
 }
+.panel-default>.panel-heading {
+    color: #000;
+    background-color: #f2f2f2;
+    border-color: #ddd;
+}
