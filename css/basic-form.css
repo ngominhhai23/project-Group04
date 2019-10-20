@@ -13,7 +13,6 @@ body{
     height: 600px;
     text-align: center;
     margin-top: 6%;
-    margin-bottom: 2%;
     margin-left: 32%;
 }
 .login-container{
@@ -74,7 +73,10 @@ body{
     color:#fff;
 }
 .mt-5, .my-5 {
-     margin-top: 0rem!important; 
+     margin-top: 0rem!important;
+}
+.mb-5, .my-5 {
+    margin-bottom: 0rem!important;
 }
 .btn-custom:focus{
     /*box-shadow: 0 0 0 0.2rem rgba(114,61,190,.25);*/
@@ -84,9 +86,8 @@ body{
 }
 
 .main-title{
-    padding-top: 5em;
+    padding-top: 3em;
     text-align: center;
-    margin-bottom: 0em;
 }
 .forgot-pass{
     text-align: left;
