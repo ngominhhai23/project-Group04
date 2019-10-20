@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Google font -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
-        <title>LOGIN - QUANG HẢI Store | Shop bán điện thoại iPhone online</title>
+        <title>REGISTER - QUANG HẢI Store | Shop bán điện thoại iPhone online</title>
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
                 crossorigin="anonymous">
@@ -19,39 +19,46 @@
     <body>
 <div class="container-basic">
     <div class="main-title">
-        <h5 class="mb-5 font-weight-light ">Welcome to Quang Hai Store! Please login.</h5>
-        <!-- <h5 class="mb-5 font-weight-light ">Welcome to <img src="img/logo2.png" alt="logo"> ! Please login.</h5> -->
+        <h5 class="mb-5 font-weight-light ">Create your <img src="img/logo2.png" alt="logo"> Account.</h5>
     </div>
+    <div class="form-group">
+                    <button class="loginBtn loginBtn--facebook">
+                        Connect with Facebook
+                    </button>
+                <br>
+                    <button class="loginBtn loginBtn--google">
+                        Connect with Google
+                    </button>
+                    <br>Already member? <a href="login.html">Login</a> here.
+    </div>
+
         <div class="login-container d-flex align-items-center justify-content-center">
         <form class="login-form text-center">
             <div class="form-group">
-                <input type="text" class="form-control rounded-pill form-control-lg" placeholder="Email or User name">
+                <input type="text" class="form-control rounded-pill form-control-lg" placeholder="User name">
 
             </div>
             <div class="form-group">
-                    <input type="password" class="form-control rounded-pill form-control-lg" placeholder="Password">
-                </div>
+                    <input type="password" class="form-control rounded-pill form-control-lg" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control rounded-pill form-control-lg" placeholder="Password">
+
+            </div>
+            <div class="form-group">
+                    <input type="password" class="form-control rounded-pill form-control-lg" placeholder="Confirm Password">
+            </div>
                 <div class="forget-link  d-flex align-items-center justify-content-between">
                     <div class="row">
                     <div class="form-check">
                         <input type="checkbox" class="form-check-input" id="remember">
-                        <label for="remember">Remember Password</label>
+                        <label for="remember">I want to receive exclusive offers and promotions<br>from Quang Hai Store.</label>
                     </div>
-                    <ul class="forgot-pass"><a href="forgot-password.html">Forgot Password</a></ul>
                 </div>
                 </div>
-                <button type="submit" class="btn mt-5 btn-custom btn-block text-uppercase rounded-pill btn-lg">Login</button>
-                <br>
-                <div class="form-group">
-<button class="loginBtn loginBtn--facebook">
-  Login with Facebook
-</button>
-<br>
-<button class="loginBtn loginBtn--google">
-  Login with Google
-</button>
-</div>
-                <p class="mt-3 font-weight-normal">New member? <a href="#"> <strong>Register</strong></a> here.</p>
+                <button type="submit" class="btn mt-5 btn-custom btn-block text-uppercase rounded-pill btn-lg"><i class="fa fa-paper-plane"></i> Sign up
+                </button>
+                <p class="mt-3 font-weight-normal">By clicking "SIGN UP" I agree to <a href="privacy-policy.html">Quang Hai Store Privacy Policy</a>.</p>
         </form>
     </div>
 </div>
