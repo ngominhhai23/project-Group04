@@ -5,7 +5,7 @@ body{
     background: #eff0f5;
     color: #15161d;
 }
-.container-basic{
+.container-login{
     border: 1px;
     border-radius: 30px;
     background-color: #fff;
@@ -15,15 +15,33 @@ body{
     margin-top: 6%;
     margin-left: 32%;
 }
+.container-register{
+    border: 1px;
+    border-radius: 30px;
+    background-color: #fff;
+    width: 600px;
+    height: 700px;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 32%;
+}
+.container-forgot-password{
+    border: 1px;
+    border-radius: 30px;
+    background-color: #fff;
+    width: 600px;
+    height: 330px;
+    text-align: center;
+    margin-top: 13%;
+    margin-left: 32%;
+}
 .login-container{
     width:100%;
 }
 .login-form{
     max-width: 100%;
     width:370px;
-    margin:auto;
-
-}
+    margin:auto;}
 .form-connect{
     padding-top: 15px;
     text-align: left;
