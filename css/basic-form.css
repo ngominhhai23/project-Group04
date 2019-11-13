@@ -174,3 +174,14 @@ body{
 .loginBtn--google:focus {
   background: #E74B37;
 }
+/*.checkbox input[type="checkbox"]{
+  display: none;
+}*/
+.form-check-input{
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+  display: inline-block;
+  border: 1px solid #ddd;
+  position: relative;
+}
