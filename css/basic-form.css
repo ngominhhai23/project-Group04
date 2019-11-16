@@ -54,9 +54,10 @@ body{
 
 }
 .form-check {
-    position: relative;
-    display: block;
-    padding-left: 2.3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 14px;
 }
 .forgot-link{
     font-size:13px;
@@ -174,14 +175,42 @@ body{
 .loginBtn--google:focus {
   background: #E74B37;
 }
-/*.checkbox input[type="checkbox"]{
+/* Checkbox */
+.checkboxContainer input{
   display: none;
-}*/
-.form-check-input{
-  height: 16px;
-  width: 16px;
-  margin-right: 5px;
+}
+.checkboxContainer {
   display: inline-block;
-  border: 1px solid #ddd;
+  padding-left: 30px;
   position: relative;
+  cursor: pointer;
+}
+.checkboxContainer .checkmark{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border: 1px solid #999;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 3px;
+}
+.checkboxContainer input:checked + .checkmark{
+  background-color: #d10024;
+}
+.checkboxContainer:hover .checkmark{
+  background-color: #ffe6ea;
+  border: 1px solid #d10024;
+}
+.checkboxContainer input:checked + .checkmark:after{
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 9px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%) rotate(-45deg);
 }
