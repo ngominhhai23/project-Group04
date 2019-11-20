@@ -59,6 +59,7 @@ body{
     display: -ms-flexbox;
     display: flex;
     font-size: 14px;
+    padding-left: 5.8em;
 }
 .forgot-link{
     font-size:13px;
@@ -224,4 +225,7 @@ body{
 .main-logo {
   text-align: center;
 
+}
+.check-form{
+  margin-left: 5px;
 }
