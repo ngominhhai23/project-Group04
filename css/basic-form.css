@@ -17,9 +17,8 @@ body{
 }
 .container-register{
     border: 1px;
-    border-radius: 30px;
     background-color: #fff;
-    width: 600px;
+    width: 650px;
     /*height: 40%;*/
     min-height: 0;
     text-align: center;
@@ -41,8 +40,10 @@ body{
 }
 .login-form{
     max-width: 100%;
-    width:370px;
-    margin:auto;}
+    width:inherit;
+    padding-left: 5em;
+    padding-right: 5em;
+}
 .form-connect{
     padding-top: 15px;
     text-align: left;
@@ -53,13 +54,6 @@ body{
     min-height:48px;
     font-weight:500;
 
-}
-.form-check {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-size: 14px;
-    padding-left: 5.8em;
 }
 .forgot-link{
     font-size:13px;
@@ -106,14 +100,16 @@ body{
     color: #fff;
 }
 
-.main-title1{
+.main-title{
+    font-size: 22px;
     padding-top: 1em;
     padding-bottom: 1em;
-    text-align: center;
+    text-align: left;
 }
 .main-title2{
+  position: relative;
     padding-top: 0em;
-    padding-bottom: 0em;
+    padding-bottom: 0.5em;
     text-align: center;
 }
 .forgot-pass{
@@ -192,6 +188,7 @@ body{
   padding-left: 30px;
   position: relative;
   cursor: pointer;
+  font-size: 14px;
 }
 .checkboxContainer .checkmark{
   display: inline-block;
@@ -228,4 +225,25 @@ body{
 }
 .check-form{
   margin-left: 5px;
+}
+.agree{
+  text-align: center;
+  font-size: 12px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.login-here{
+    padding-left: 0em;
+    padding-top: 2.2em;
+    text-align: right;
+    font-size: 14px;
+}
+.flex-title{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-login-btn{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2em;
 }
