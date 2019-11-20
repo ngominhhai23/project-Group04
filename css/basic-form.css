@@ -23,7 +23,7 @@ body{
     /*height: 40%;*/
     min-height: 0;
     text-align: center;
-    margin-top: 0.5em;
+    margin-top: 0em;
     margin-left: 32%;
 }
 .container-forgot-password{
@@ -105,8 +105,13 @@ body{
     color: #fff;
 }
 
-.main-title{
+.main-title1{
     padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+.main-title2{
+    padding-top: 0em;
     padding-bottom: 0em;
     text-align: center;
 }
