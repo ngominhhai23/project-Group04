@@ -26,167 +26,171 @@
 
     <!-- Custom stlylesheet -->
     <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png"/>
 
 </head>
 
 <body>
-    <!-- HEADER -->
-    <header>
-        <!-- TOP HEADER -->
-        <div id="top-header">
-            <div class="container">
-                <ul class="header-links pull-left">
-                    <li><a href="#"><i class="fa fa-phone"></i> +84-337-838-313</a></li>
-                    <li><a href="#"><i class="fa fa-envelope-o"></i> quanghaistore@gmail.com</a></li>
-                    <li><a href="#"><i class="fa fa-map-marker"></i>69/5, Tân Hòa, Đông Hòa, Dĩ An, Bình Dương</a></li>
-                </ul>
-                <ul class="header-links pull-right">
-                    <li><a href="#"><i class="fa fa-bell"></i>Thông báo</a></li>
-                    <li><a href="help.html"><i class="fa fa-question-circle"></i>Trợ giúp</a></li>
-                    <li><a href="register.html"><i class="fa fa-user-plus"></i></i>Đăng kí</a></li>
-                    <li><a href="login.html"><i class="fa fa-user"></i></i>Đăng nhập</a></li>
-                </ul>
+    <!-- BACK TO TOP -->
+             <button onclick="topFunction()" id="myBtn" title="Go to top" ><i class="fa fa-arrow-circle-up" a></i></button>
+        <!-- /BACK TO TOP -->
+        <!-- HEADER -->
+        <header>
+            <!-- TOP HEADER -->
+            <div id="top-header">
+                <div class="container">
+                    <ul class="header-links pull-left">
+                        <li><a href="#"><i class="fa fa-phone"></i> +84-337-838-313</a></li>
+                        <li><a href="#"><i class="fa fa-envelope-o"></i> quanghaistore@gmail.com</a></li>
+                        <li><a href="#"><i class="fa fa-map-marker"></i>69/5, Tân Hòa, Đông Hòa, Dĩ An, Bình Dương</a></li>
+                    </ul>
+                    <ul class="header-links pull-right">
+                        <li><a href="#"><i class="fa fa-bell"></i>Thông báo</a></li>
+                        <li><a href="help.html"><i class="fa fa-question-circle"></i>Trợ giúp</a></li>
+                        <li><a href="register.html"><i class="fa fa-user-plus"></i></i>Đăng kí</a></li>
+                        <li><a href="login.html"><i class="fa fa-user"></i></i>Đăng nhập</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <!-- /TOP HEADER -->
+            <!-- /TOP HEADER -->
 
-        <!-- MAIN HEADER -->
-        <div id="header">
-            <!-- container -->
-            <div class="container">
-                <!-- row -->
-                <div class="row">
-                    <!-- LOGO -->
-                    <div class="col-md-3">
-                        <div class="header-logo">
-                            <a href="index.html" class="logo">
-                                <img src="./img/logo.png" alt="Logo">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- /LOGO -->
-
-                    <!-- SEARCH BAR -->
-                    <div class="col-md-6">
-                        <div class="header-search">
-                            <form>
-                                <select class="input-select">
-                                    <option value="0">iPhone</option>
-                                    <option value="1">iPad</option>
-                                    <option value="1">Macbook</option>
-                                    <option value="1">Smartwatch</option>
-                                    <option value="1">Phụ Kiện</option>
-                                </select>
-                                <input class="input" placeholder="Bạn muốn tìm gì...">
-                                <button class="search-btn">Tìm Kiếm</button>
-                            </form>
-                        </div>
-                    </div>
-                    <!-- /SEARCH BAR -->
-
-                    <!-- ACCOUNT -->
-                    <div class="col-md-3 clearfix">
-                        <div class="header-ctn">
-                            <!-- Wishlist -->
-                            <div>
-                                <a href="#">
-                                    <i class="fa fa-heart-o"></i>
-                                    <span>Đã Xem</span>
-                                    <div class="qty">2</div>
+            <!-- MAIN HEADER -->
+            <div id="header">
+                <!-- container -->
+                <div class="container">
+                    <!-- row -->
+                    <div class="row">
+                        <!-- LOGO -->
+                        <div class="col-md-3">
+                            <div class="header-logo">
+                                <a href="index.html" class="logo">
+                                    <img src="./img/logo.png" alt="Logo">
                                 </a>
                             </div>
-                            <!-- /Wishlist -->
+                        </div>
+                        <!-- /LOGO -->
 
-                            <!-- Cart -->
-                            <div class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-                                    <i class="fa fa-shopping-cart"></i>
-                                    <span>Giỏ Hàng</span>
-                                    <div class="qty">3</div>
-                                </a>
-                                <div class="cart-dropdown">
-                                    <div class="cart-list">
-                                        <div class="product-widget">
-                                            <div class="product-img">
-                                                <img src="./img/product01.png" alt="">
-                                            </div>
-                                            <div class="product-body">
-                                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
-                                                <h4 class="product-price"><span class="qty">1x</span>$980.00</h4>
-                                            </div>
-                                            <button class="delete"><i class="fa fa-close"></i></button>
-                                        </div>
+                        <!-- SEARCH BAR -->
+                        <div class="col-md-6">
+                            <div class="header-search">
+                                <form>
+                                    <select class="input-select">
 
-                                        <div class="product-widget">
-                                            <div class="product-img">
-                                                <img src="./img/product02.png" alt="">
+                                        <option value="0">Hà Nội</option>
+                                        <option value="1">Tp HCM</option>
+
+                                    </select>
+                                    <input class="input" placeholder="Bạn muốn tìm gì...">
+                                    <button class="search-btn">Tìm Kiếm</button>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- /SEARCH BAR -->
+
+                        <!-- ACCOUNT -->
+                        <div class="col-md-3 clearfix">
+                            <div class="header-ctn">
+                                <!-- Wishlist -->
+                                <div>
+                                    <a href="#">
+                                        <i class="fa fa-heart-o"></i>
+                                        <span>Yêu Thích</span>
+                                        <div class="qty">0</div>
+                                    </a>
+                                </div>
+                                <!-- /Wishlist -->
+
+                                <!-- Cart -->
+                                <div class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                        <i class="fa fa-shopping-cart"></i>
+                                        <span>Giỏ Hàng</span>
+                                        <div class="qty">3</div>
+                                    </a>
+                                    <div class="cart-dropdown">
+                                        <div class="cart-list">
+                                            <div class="product-widget">
+                                                <div class="product-img">
+                                                    <img src="./img/product01.png" alt="">
+                                                </div>
+                                                <div class="product-body">
+                                                    <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                                    <h4 class="product-price"><span class="qty">1x</span>$980.00</h4>
+                                                </div>
+                                                <button class="delete"><i class="fa fa-close"></i></button>
                                             </div>
-                                            <div class="product-body">
-                                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
-                                                <h4 class="product-price"><span class="qty">3x</span>$980.00</h4>
+
+                                            <div class="product-widget">
+                                                <div class="product-img">
+                                                    <img src="./img/product02.png" alt="">
+                                                </div>
+                                                <div class="product-body">
+                                                    <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                                    <h4 class="product-price"><span class="qty">3x</span>$980.00</h4>
+                                                </div>
+                                                <button class="delete"><i class="fa fa-close"></i></button>
                                             </div>
-                                            <button class="delete"><i class="fa fa-close"></i></button>
                                         </div>
-                                    </div>
-                                    <div class="cart-summary">
-                                        <small>3 Item(s) selected</small>
-                                        <h5>SUBTOTAL: $2940.00</h5>
-                                    </div>
-                                    <div class="cart-btns">
-                                        <a href="#">View Cart</a>
-                                        <a href="#">Checkout  <i class="fa fa-arrow-circle-right"></i></a>
+                                        <div class="cart-summary">
+                                            <small>3 Item(s) selected</small>
+                                            <h5>SUBTOTAL: $2940.00</h5>
+                                        </div>
+                                        <div class="cart-btns">
+                                            <a href="">Xem Giỏ Hàng</a>
+                                            <a href="checkout.html">Thanh Toán<i class="fa fa-arrow-circle-right"></i></a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- /Cart -->
+                                <!-- /Cart -->
 
-                            <!-- Menu Toogle -->
-                            <div class="menu-toggle">
-                                <a href="#">
-                                    <i class="fa fa-bars"></i>
-                                    <span>Menu</span>
-                                </a>
+                                <!-- Menu Toogle -->
+                                <div class="menu-toggle">
+                                    <a href="#">
+                                        <i class="fa fa-bars"></i>
+                                        <span>Menu</span>
+                                    </a>
+                                </div>
+                                <!-- /Menu Toogle -->
                             </div>
-                            <!-- /Menu Toogle -->
                         </div>
+                        <!-- /ACCOUNT -->
                     </div>
-                    <!-- /ACCOUNT -->
+                    <!-- row -->
                 </div>
-                <!-- row -->
+                <!-- container -->
             </div>
+            <!-- /MAIN HEADER -->
+        </header>
+        <!-- /HEADER -->
+
+        <!-- NAVIGATION -->
+        <nav id="navigation">
             <!-- container -->
-        </div>
-        <!-- /MAIN HEADER -->
-    </header>
-    <!-- /HEADER -->
+            <div class="container">
+                <!-- responsive-nav -->
+                <div id="responsive-nav">
+                    <!-- NAV -->
+                    <ul class="main-nav nav navbar-nav">
+                        <li class="active"><a href="index.html"><i class="fa fa-home" style="color: #D10024"></i>&nbsp;Trang Chủ</a></li>
+                        <li class=""><a href="promotion.html"><i class="fa fa-gift" style="color: #D10024" ></i>&nbsp;Khuyến Mãi</a></li>
+                        <li class=""><a href="store-iphone.html"><i class="fa fa-mobile" style="color: #D10024"></i>&nbsp;iPhone</a></li>
+                        <li class=""><a href="ipad.html"><i class="fa fa-tablet" style="color: #D10024"></i>&nbsp;iPad</a></li>
+                        <li class=""><a href="store-applewatch.html"><i class="fa fa-clock-o" style="color: #D10024"></i>&nbsp;Apple Watch</a></li>
+                        <li class=""><a href="store-Macbook.html"><i class="fa fa-laptop"style="color: #D10024" ></i>&nbsp;Macbook</a></li>
+                         <li class=""><a href="store-phukien-page1.html"><i class="fa fa-headphones" style="color: #D10024"></i>&nbsp;Phụ Kiện</a></li>
 
-    <!-- NAVIGATION -->
-    <nav id="navigation">
-        <!-- container -->
-        <div class="container">
-            <!-- responsive-nav -->
-            <div id="responsive-nav">
-                <!-- NAV -->
-                <ul class="main-nav nav navbar-nav">
-                    <li class="active"><a href="index.html"><i class="fa fa-home" style="color: #D10024"></i>&nbsp;Trang Chủ</a></li>
-                    <li class=""><a href="#"><i class="fa fa-gift" style="color: #D10024" ></i>&nbsp;Khuyến Mãi</a></li>
-                    <li class=""><a href="iphone.html"><i class="fa fa-mobile" style="color: #D10024"></i>&nbsp;iPhone</a></li>
-                    <li class=""><a href="#"><i class="fa fa-tablet" style="color: #D10024"></i>&nbsp;iPad</a></li>
-                    <li class=""><a href="#"><i class="fa fa-clock-o" style="color: #D10024"></i>&nbsp;Apple Watch</a></li>
-                    <li class=""><a href="#"><i class="fa fa-laptop"style="color: #D10024" ></i>&nbsp;Macbook</a></li>
-                    <li class=""><a href="#"><i class="fa fa-headphones" style="color: #D10024"></i>&nbsp;Phụ Kiện</a></li>
-                    <li class=""><a href="#"><i class="fa fa-credit-card" style="color: #D10024"></i>&nbsp;Trả Góp</a></li>
-                    <li class=""><a href="#"><i class="fa fa-newspaper-o" style="color: #D10024"></i>&nbsp;Tin Tức</a></li>
-                    <li class=""><a href="#"><i class="fa fa-map-marker" style="color: #D10024"></i>&nbsp;Liên Hệ</a></li>
+                         <li class=""><a href="installment.html"><i class="fa fa-credit-card" style="color: #D10024"></i>&nbsp;Trả Góp</a></li>
+                         <li class=""><a href="news.html"><i class="fa fa-newspaper-o" style="color: #D10024"></i>&nbsp;Tin Tức</a></li> 
+                         <li class=""><a href="contact.html"><i class="fa fa-map-marker" style="color: #D10024"></i>&nbsp;Liên Hệ</a></li>
 
-                </ul>
-                <!-- /NAV -->
+                    </ul>
+                    <!-- /NAV -->
+                </div>
+                <!-- /responsive-nav -->
             </div>
-            <!-- /responsive-nav -->
-        </div>
-        <!-- /container -->
-    </nav>
-    <!-- /NAVIGATION -->
+            <!-- /container -->
+        </nav>
+        <!-- /NAVIGATION -->
 
     <!-- BREADCRUMB -->
     <div id="breadcrumb" class="section">
@@ -484,129 +488,142 @@
     <!-- /NEWSLETTER -->
 
     <!-- FOOTER -->
-    <footer id="footer">
-        <!-- top footer -->
-        <div class="section">
-            <!-- container -->
-            <div class="container">
-                <!-- row -->
-                <div class="row">
-                    <div class="col-md-3 col-xs-6">
-                        <div class="footer">
-                            <h3 class="footer1"><i class="fa fa-question-circle"></i> Hỗ trợ khách hàng</h3>
-                            <div class="hotline-footer">
-                                <ul>
-                                    <li>
-                                        <strong>HotLine:</strong>
-                                        <b>
-													<a href="tel:0388929625">0388929625</a>
-													<span>(8:00-23:00 kể T7,Cn)</span>
-												</b>
-
-                                    </li>
-                                </ul>
-                                <ul>
-                                    <li>
-                                        <strong>Khiếu nại, đóng góp ý kiến:</strong>
-                                        <b>
-														<a href="tel:035687598">035687598</a>
-														<span>(8:00-23:00 kể T7,Cn)</span>
-													</b>
-
-                                    </li>
-                                </ul>
-
+        <footer id="footer">
+            <!-- top footer -->
+            <div class="section">
+                <!-- container -->
+                <div class="container">
+                    <!-- row -->
+                    <div class="row">
+                        <div class="col-md-3 col-xs-6">
+                            <div class="footer">
+                                <h3 class="footer1"><i class="fa fa-question-circle"></i> Hỗ trợ khách hàng</h3>
+                                <div class="hotline-footer">
+                                    <ul>
+                                        <li>
+                                                <strong>HotLine:</strong>
+                                                <b>
+                                                    <a href="tel:0388929625">0388929625</a>
+                                                    <span>(8:00-23:00 kể cả T7,Cn)</span>
+                                                </b>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                            <li>
+                                                    <strong>Khiếu nại, đóng góp ý kiến:</strong>
+                                                    <b>
+                                                        <a href="tel:035687598">035687598</a>
+                                                        <span>(8:00-23:00 kể cả T7,Cn)</span>
+                                                    </b>
+                                            </li>
+                                        </ul>
+                                </div>
+                                <div class="content">
+                                        <ul>
+                                                <li>
+                                                        <a href="#">Tìm hiểu về chính sách bảo hành</a>
+                                                </li>
+                                                <li><a href="#">
+                                                        Giao hàng & Thanh toán.</a></li>
+                                                <li><a href="#  ">
+                                                        Hướng dẫn mua Online.</a></li>
+                                            </ul>
+                                </div>
                             </div>
-                            <div class="content">
-                                <ul>
-                                    <li>
-                                        <a href="#">Tìm hiểu về chính sách bảo hành</a>
-                                    </li>
-                                    <li><a href="#">
-														Giao hàng & Thanh toán.</a></li>
-                                    <li><a href="#	">
-														Hướng dẫn mua Online.</a></li>
-                                </ul>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                                <div class="footer ">
+                                    <h3 class="footer1"><i class="fa fa-home" aria-hidden="true"></i> Quanghaistore</h3>
+                                    <a href="#"><p>Tuyển dụng</p></a>
+                                    <a href="#"><p>Khuyến mãi</p></a>
+                                    <a href="#"><p>Liên hệ</p></a>
+                                    <a href="#"><p>Hỏi đáp</p></a>
+                                    <a href="#"><p>Tra cứu bảo hành</p></a>
+                                </div>
                             </div>
 
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-xs-6">
-                        <div class="footer ">
-                            <h3 class="footer1"><i class="fa fa-home" aria-hidden="true"></i> Quanghaistore</h3>
-                            <a href="#">
-                                <p>Tuyển dụng</p>
-                            </a>
-                            <a href="#">
-                                <p>Khuyến mãi</p>
-                            </a>
-                            <a href="#">
-                                <p>Liên hệ</p>
-                            </a>
-                            <a href="#">
-                                <p>Hỏi đáp</p>
-                            </a>
-                            <a href="#">
-                                <p>Tra cứu bảo hành</p>
-                            </a>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-xs-6">
-                        <div class="row">
+                        <div class="col-md-3 col-xs-6">
+                            <div class="row">
                             <div class="footer">
                                 <h3 class="footer1"><i class="fa fa-credit-card-alt" aria-hidden="true"></i> Phương thức thanh toán</h3>
                                 <div class="content">
                                     <p>
-                                        <img class="thanhtoan" src="img/footer_thanhtoan.jpg">
+                                            <img class ="thanhtoan" src="img/footer_thanhtoan.jpg">
                                     </p>
+                            </div>
+                        </div>
+                            </div>
+                            <div class="row">
+                                <h3 class="footer1"><i class="fa fa-truck" aria-hidden="true"></i> Hình thức vận chuyển</h3>
+                                <img class ="thanhtoan" src="img/vanchuyen.jpg">
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3 col-xs-6">
+                            <div class="footer">
+                                <h3 class="footer1" ><i class="fa fa-map-marker"></i> Hệ Thống Cửa hàng</h3>
+                                <div class="col ">
+                                    <ul>
+                                        <li><i class="fa fa-location-arrow"></i>
+                                            <strong>69/05 Tân Hòa, Đông Hòa, TX Dĩ An, Bình Dương</strong>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                            <li><i class="fa fa-location-arrow"></i>
+                                                <strong>64 Võ văn Ngân, Thủ Đức, Tp HCM</strong>
+                                            </li>
+                                        </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <h3 class="footer1"><i class="fa fa-truck" aria-hidden="true"></i> Hình thức vận chuyển</h3>
-                            <img class="thanhtoan" src="img/vanchuyen.jpg">
-                        </div>
                     </div>
-
-                    <div class="col-md-3 col-xs-6">
-                        <div class="footer">
-                            <h3 class="footer1"><i class="fa fa-map-marker"></i> Hệ Thống Cửa hàng</h3>
-                            <div class="col ">
-                                <ul>
-                                    <li><i class="fa fa-location-arrow"></i>
-                                        <strong>69/05 Tân Hòa, Đông Hòa, TX Dĩ An, Bình Dương</strong>
-                                    </li>
-                                </ul>
-                                <ul>
-                                    <li><i class="fa fa-location-arrow"></i>
-                                        <strong>64 Võ văn Ngân, Thủ Đức, Tp HCM</strong>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- /row -->
                 </div>
-                <!-- /row -->
+                <!-- /container -->
             </div>
-            <!-- /container -->
-        </div>
-        <!-- /top footer -->
+            <!-- /top footer -->
 
-        
-			
-    </footer>
-    <!-- /FOOTER -->
+        </footer>
+        <!-- /FOOTER -->
 
-    <!-- jQuery Plugins -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/nouislider.min.js"></script>
-    <script src="js/jquery.zoom.min.js"></script>
-    <script src="js/main.js"></script>
+        <!-- jQuery Plugins -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/nouislider.min.js"></script>
+        <script src="js/jquery.zoom.min.js"></script>
+        <script src="js/main.js"></script>
 
-</body>
+<script type="text/javascript">
+    // interval is in milliseconds. 1000 = 1 second -> so 1000 * 10 = 10 seconds
+$('.carousel').carousel({
+  interval: 1000 * 2
+});
+</script>
+        <!-- SCRIPT GO TO TOP -->
+        <script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
 
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+        <!-- /SCRIPT GO TO TOP -->
+
+    </body>
 </html>
