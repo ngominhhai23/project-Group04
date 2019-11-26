@@ -30,6 +30,9 @@
 	
     </head>
 	<body>
+		<!-- BACK TO TOP -->
+             <button onclick="topFunction()" id="myBtn" title="Go to top" ><i class="fa fa-arrow-circle-up" a></i></button>
+		<!-- /BACK TO TOP -->
 		<!-- HEADER -->
 		<header>
 			<!-- TOP HEADER -->
@@ -71,11 +74,9 @@
 							<div class="header-search">
 								<form>
 									<select class="input-select">
-										<option value="0">Iphone</option>
-										<option value="1">Tablet</option>
-										<option value="1">Laptop</option>
-										<option value="1">Smartwatch</option>
-										<option value="1">Phụ Kiện</option>
+										<option value="0">Hà Nội</option>
+										<option value="1">Tp HCM</option>
+										
 									</select>
 									<input class="input" placeholder="Bạn muốn tìm gì...">
 									<button class="search-btn">Tìm Kiếm</button>
@@ -91,7 +92,7 @@
 								<div>
 									<a href="#">
 										<i class="fa fa-heart-o"></i>
-										<span>Đã Xem</span>
+										<span>Yêu Thích</span>
 										<div class="qty">2</div>
 									</a>
 								</div>
@@ -169,16 +170,17 @@
 					<!-- NAV -->
 					<ul class="main-nav nav navbar-nav">
 						<li class=""><a href="index.html"><i class="fa fa-home" style="color: #D10024"></i>&nbsp;Trang Chủ</a></li>
-						<li class=""><a href="#"><i class="fa fa-gift" style="color: #D10024" ></i>&nbsp;Khuyến Mãi</a></li>
-						<li class=""><a href="iphone.html"><i class="fa fa-mobile" style="color: #D10024"></i>&nbsp;Iphone</a></li>
-						<li class=""><a href="#"><i class="fa fa-tablet" style="color: #D10024"></i>&nbsp;Tablet</a></li>
-						<li class=""><a href="#"><i class="fa fa-clock-o" style="color: #D10024"></i>&nbsp;Smartwatch</a></li>
-						<li class=""><a href="#"><i class="fa fa-laptop"style="color: #D10024" ></i>&nbsp;Laptop</a></li>
-						<li class="active"><a href="#"><i class="fa fa-headphones" style="color: #D10024"></i>&nbsp;Phụ Kiện</a></li>
-						<li class=""><a href="#"><i class="fa fa-credit-card" style="color: #D10024"></i>&nbsp;Trả Góp</a></li>
-						<li class=""><a href="#"><i class="fa fa-newspaper-o" style="color: #D10024"></i>&nbsp;Tin Tức</a></li>
-						<li class=""><a href="#"><i class="fa fa-map-marker" style="color: #D10024"></i>&nbsp;Liên Hệ</a></li>
-	
+						<li class=""><a href="promotion.html"><i class="fa fa-gift" style="color: #D10024" ></i>&nbsp;Khuyến Mãi</a></li>
+						<li class=""><a href="store-iphone.html"><i class="fa fa-mobile" style="color: #D10024"></i>&nbsp;iPhone</a></li>
+						<li class=""><a href="ipad.html"><i class="fa fa-tablet" style="color: #D10024"></i>&nbsp;iPad</a></li>
+						<li class=""><a href="store-applewatch.html"><i class="fa fa-clock-o" style="color: #D10024"></i>&nbsp;Apple Watch</a></li>
+						<li class=""><a href="store-Macbook.html"><i class="fa fa-laptop"style="color: #D10024" ></i>&nbsp;Macbook</a></li>
+		                 <li class="active"><a href="store-phukien-page1.html"><i class="fa fa-headphones" style="color: #D10024"></i>&nbsp;Phụ Kiện</a></li>
+
+                         <li class=""><a href="installment.html"><i class="fa fa-credit-card" style="color: #D10024"></i>&nbsp;Trả Góp</a></li>
+                         <li class=""><a href="news.html"><i class="fa fa-newspaper-o" style="color: #D10024"></i>&nbsp;Tin Tức</a></li> 
+                         <li class=""><a href="contact.html"><i class="fa fa-map-marker" style="color: #D10024"></i>&nbsp;Liên Hệ</a></li>
+
 					</ul>
 					<!-- /NAV -->
 				</div>
@@ -187,7 +189,6 @@
 			<!-- /container -->
 		</nav>
 		<!-- /NAVIGATION -->
-
 		<!-- BREADCRUMB -->
 		<div id="breadcrumb" class="section">
 			<!-- container -->
@@ -198,7 +199,7 @@
 						<ul class="breadcrumb-tree">
 							<li><a href="index.html">Trang Chủ</a></li>
 							<li><a href="store-phukien-page1.html">Phụ Kiện</a></li>
-							<li><a href="tainghebluetooth.html">Sạc Apple</a></li>
+							<li><a href="#">Sạc Apple</a></li>
 				
 							<li class="active">Sạc Apple iPhone 5W MD813ZM/A(JU.108)</li>
 						    
@@ -891,6 +892,29 @@ Sử dụng chất liệu nhựa cao cấp, sản phẩm sạc Apple iPhone 5W M
 		<script src="js/nouislider.min.js"></script>
 		<script src="js/jquery.zoom.min.js"></script>
 		<script src="js/main.js"></script>
+		<!-- SCRIPT GO TO TOP -->
+		<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+		<!-- /SCRIPT GO TO TOP -->
 
 	</body>
 </html>
