@@ -116,7 +116,7 @@ body{
     text-align: left;
 }
 
-/* Shared */
+/* Register with */
 .loginBtn {
   box-sizing: border-box;
   position: relative;
@@ -128,7 +128,7 @@ body{
   line-height: 34px;
   white-space: nowrap;
   border-radius: 0.2em;
-  font-size: 16px;
+  font-size: 14px;
   color: #FFF;
 }
 .loginBtn:before {
