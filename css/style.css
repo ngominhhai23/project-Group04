@@ -2759,6 +2759,221 @@ h2::after {
   background-color: #D10024;
 }
 
+/*CSS TRẢ GÓP*/
+.tra_gop-page {
+    display: block;
+    width: 100%;
+    float: left;
+    border-radius: 8px;
+    box-shadow: 1px 3px 4px 0 rgba(57, 61, 63, 0.15);
+    background-color: #ffffff;
+}
+.tra_gop-content .head {
+    display: block;
+    width: 100%;
+    float: left;
+    margin-top: 10px
+}
+.tra_gop-content .left {
+    display: inline-block;
+    width: 25%;
+}
+.tra_gop-content .right {
+    display: inline-block;
+    width: 75%;
+}
+.tra_gop-content {
+    display: block;
+    width: 100%;
+    float: left;
+    padding: 0 0 0 15px;
+}
+.tragop-tab {
+    float: left;
+    border-right: none;
+    width: 25%;
+    min-height: 550px;
+    border-radius: 5px 0 0 5px;
+}
+.tab-child {
+/*  display: none;*/
+  float: right;
+    border-right: none;
+    width: 90%;
+    border-radius: 5px 0 0 5px;
+    margin-bottom: 15px;
+}
+
+.tragop-tab button {
+    display: block;
+    border-radius: 4px 0 0 4px;
+    background-color: #fbfbfb;
+    color: black;
+    padding: 15px 30px 15px 20px;
+    margin: 15px 0 0px 0px;
+    width: 100%;
+    border-right: none;
+    border: solid 1px #eeeeee;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.tragop-tab button.active {
+    color: #e11b1e;
+    border-right: 0px;
+    position: relative;
+    font-weight: bold;
+    border-left: 4px solid #e11b1e;
+    background-color: #fbfbfb;
+    box-shadow: -1px 0px 0 0 #eeeeee, -4px 0 9px 0 rgba(60, 61, 65, 0.12)
+}
+
+.tabcontent {
+  /*display: none;*/
+    float: left;
+    padding: 10px 20px;
+    width: 75%;
+    height: auto;
+    min-height: 950px;
+    background-color: #fbfbfb;
+    box-shadow: -1px 0 0 0 #eeeeee, -4px 0 9px 0 rgba(60, 61, 65, 0.12)
+}
+.tabcontent h3 {
+  font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 32px;
+    letter-spacing: normal;
+    color: #e11b1e;
+    margin: 0 0 10px;
+}
+h1.tragop-title {
+    text-align: center;
+    color: #161616;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: #fff;
+    display: block;
+    margin: 0px;
+    top: 40px;
+    position: relative;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+/*.tragop-tab span {
+    display: inline-block;
+    float: left;
+    margin: 0 10px;
+    color: #fff;
+    padding: 1px 7px;
+    background: #34495e;
+    border-radius: 50%;
+}*/
+.tra_gop-page .gioi_thieu {
+    display: block;
+    float: left;
+    width: 63%;
+    background-image: linear-gradient(232deg, #938c83, #726b64);
+    color: #fff;
+    padding: 15px 10px;
+    border-radius: 8px;
+    height: 140px;
+    margin-bottom: 10px;
+}
+.tra_gop-page .gioi_thieu h2 {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #fff;
+}
+.tra_gop-page .gioi_thieu-content {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+
+.cau_hoi button {
+    border: unset;
+    width: 100%;
+    text-align: left;
+    min-height: 40px;
+    padding-left: 10px;
+    background-color: #ddd;
+}
+#accordion-ask span {
+    background-color: #e11b1e;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.tabcontent {
+    text-align: justify;
+}
+.table thead {
+  border: 1px solid #ddd;
+    background-color: #e8e8e8;
+    color: #000;
+    text-transform: uppercase;
+}
+table.tra-gop-thuong {
+    background: #fff;
+    overflow-y: hidden;
+    position: relative;
+    display: block;
+}
+table.tra-gop-thuong td { 
+  text-align: center; 
+  vertical-align: middle !important; 
+}
+table.tra-gop-thuong > tbody > tr > td:first-child {
+    width: 180px;
+    min-width: 180px;
+    max-width: 180px;
+    background-color: #eee;
+    vertical-align: middle !important;
+    text-align: left;
+    padding: 0 10px;
+}
+table.tra-gop-thuong > tbody > tr > td {
+    padding: 5px 0px 5px 0px;
+}
+/*/CSS TRẢ GÓP*/
+
+
+/* BUTTON SHOW MORE*/
+ul.products-container {
+    padding: 0;
+}
+.lt-product-group-image img {
+    width: 200px;
+    height: auto;
+}
+.module.el-product-group {
+    display: block;
+    float: left;
+    width: 100%;
+}
+button#ShowMore {
+    display: block;
+    margin: 10px auto;
+    background-color: #e11b1e;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: unset;
+    text-transform: uppercase;
+}
+
+
+
 
 
 
