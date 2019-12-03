@@ -358,10 +358,12 @@ textarea.input {
 \*----------------------------*/
 
 #breadcrumb {
-  padding: 30px 0px;
+  padding: 5px 0px;
   background: #FBFBFC;
+	/*----------------------------*\
   border-bottom: 1px solid #E4E7ED;
-  margin-bottom: 30px;
+	\*----------------------------*/
+  margin-bottom: 5px;
 }
 
 #breadcrumb .breadcrumb-header {
