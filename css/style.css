@@ -2973,6 +2973,20 @@ button#ShowMore {
     border: unset;
     text-transform: uppercase;
 }
+.promotion-body{
+  margin-left:2px;
+  margin-bottom: 2px;
+}
+.promotion-button{
+  margin-left:262px;
+  margin-bottom: 5px;
+ 
+}
+.section-promotion{
+  padding-top:0;
+  padding-bottom:2px;
+}
+
 
 
 
