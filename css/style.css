@@ -189,6 +189,7 @@ textarea.input {
   height: 40px;
 }
 
+
 /*-- checkbox & radio input --*/
 
 .input-radio, .input-checkbox {
@@ -2980,17 +2981,155 @@ button#ShowMore {
 .promotion-button{
   margin-left:262px;
   margin-bottom: 5px;
- 
+
 }
 .section-promotion{
   padding-top:0;
   padding-bottom:2px;
 }
+.airpay{
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+.momo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 8px;
+}
+/* input1 */
 
+.input1 {
+  height: 40px;
+  padding: 0px 15px;
+  border: 1px solid #E4E7ED;
+  background-color: #FFF;
+  width: 50%;
+}
 
+textarea.input1 {
+  padding: 15px;
+  min-height: 90px;
+}
 
+/*-- Number input --*/
 
+.input1-number {
+  position: relative;
+}
 
+.input1-number input[type="number"]::-webkit-inner-spin-button, .input1-number input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
+.input1-number input[type="number"] {
+  -moz-appearance: textfield;
+  height: 40px;
+  width: 100%;
+  border: 1px solid #E4E7ED;
+  background-color: #FFF;
+  padding: 0px 35px 0px 15px;
+}
 
+.input1-number .qty-up, .input1-number .qty-down {
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #E4E7ED;
+  background-color: #FFF;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.input1-number .qty-up {
+  right: 0;
+  top: 0;
+  border-bottom: 0px;
+}
+
+.input1-number .qty-down {
+  right: 0;
+  bottom: 0;
+}
+
+.input1-number .qty-up:hover, .input1-number .qty-down:hover {
+  background-color: #E4E7ED;
+  color: #D10024;
+}
+
+/*-- Select input --*/
+
+.input1-select {
+  padding: 0px 15px;
+  background: #FFF;
+  border: 1px solid #E4E7ED;
+  height: 40px;
+}
+.form-row {
+  display: flex;
+justify-content: space-between;
+}
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 180px;
+  background-color: #fff;
+  color: #000;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px #999 solid;
+  border-style: outset;
+  border-width: 2px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -153px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 85%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
 
