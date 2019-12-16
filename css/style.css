@@ -293,8 +293,7 @@ textarea.input {
 \*----------------------------*/
 
 .section {
-  padding-top: 30px;
-  padding-bottom: 30px;
+ 
 }
 
 .section-title {
@@ -2005,8 +2004,9 @@ textarea.input {
 ===========================================================*/
 
 #footer {
-  background: #E4E7ED ;
   color: #B9BABC;
+  background-color: #15161D;
+  border-top: 3px solid #D10024;
 }
 
 #bottom-footer {
@@ -2014,7 +2014,7 @@ textarea.input {
 }
 
 .footer {
-  margin: 30px 0px;
+  margin: 10px 0px;
 }
 
 .footer .footer-title {
@@ -2059,7 +2059,35 @@ textarea.input {
   font-size: 36px;
   display: block;
 }
-
+.footer1{
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color:
+      #363636;
+      margin-bottom: 0px;
+  }
+.footer-thanhtoan{
+  font-size: 15px;
+text-transform: uppercase;
+font-weight: bold;
+color:
+    #363636;
+}
+.footer-thanhtoan > a{
+  width: 50px;
+  height: 30px;
+  display: inline-block;
+  margin: 5px 5px 0 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-size: 40px!important;
+  background-repeat: no-repeat!important;
+  background-position: center!important;
+  background-color: #fff!important;
+  color: rgb(255,255,255,0)!important;  
+  cursor: pointer;
+}
 /*=========================================================
 	12 -> SLICK STYLE
 ===========================================================*/
@@ -2325,7 +2353,7 @@ padding: 15px 15px 0;
   padding-bottom: 20px;
   font-weight: bold;
   color:
-      #363636;
+      #fff;
   }
   .thanhtoan{
     width: 100%;
