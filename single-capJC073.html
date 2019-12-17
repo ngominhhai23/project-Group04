@@ -8,60 +8,50 @@
 
 		<title>Cáp chuyển đổi Apple USB-C MJ1K2 Chính Hãng(JC.073)</title>
 
- 		<!-- Google font -->
- 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+ 		 <!-- Google font -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+      <!-- Bootstrap -->
+      <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+      <!-- Slick -->
+      <link type="text/css" rel="stylesheet" href="css/slick.css" />
+      <link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
+      <!-- nouislider -->
+      <link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
+      <!-- Font Awesome Icon -->
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <!-- Custom stlylesheet -->
+      <link type="text/css" rel="stylesheet" href="css/style.css" />
 
- 		<!-- Bootstrap -->
- 		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
-
- 		<!-- Slick -->
- 		<link type="text/css" rel="stylesheet" href="css/slick.css"/>
- 		<link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
-
- 		<!-- nouislider -->
- 		<link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
-
- 		<!-- Font Awesome Icon -->
- 		<link rel="stylesheet" href="css/font-awesome.min.css">
-
- 		<!-- Custom stlylesheet -->
- 		<link type="text/css" rel="stylesheet" href="css/style.css"/>
-
-	
     </head>
 	<body>
 		<!-- BACK TO TOP -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-up" a></i>
-    </button>
-    <!-- /BACK TO TOP -->
-
-
-
-    <!-- CHAT  -->
-    <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-    <script>
+             <button onclick="topFunction()" id="myBtn" title="Go to top" ><i class="fa fa-arrow-circle-up" a></i></button>
+		<!-- /BACK TO TOP -->
+		<!-- CHAT  -->
+                 <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
         window.fbAsyncInit = function() {
-            FB.init({
-                xfbml: true,
-                version: 'v5.0'
-            });
+          FB.init({
+            xfbml            : true,
+            version          : 'v5.0'
+          });
         };
 
         (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
 
-    <!-- Your customer chat code -->
-    <div class="fb-customerchat" attribution=setup_tool page_id="110900673714157">
-    </div>
-    <!-- /CHAT -->
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="110900673714157">
+      </div>
+		<!-- /CHAT -->
 		<!-- HEADER -->
 		<header>
 			<!-- TOP HEADER -->
@@ -81,114 +71,118 @@
 				</div>
 			</div>
 			<!-- /TOP HEADER -->
-	
-			<!-- MAIN HEADER -->
-			<div id="header">
-				<!-- container -->
-				<div class="container">
-					<!-- row -->
-					<div class="row">
-						<!-- LOGO -->
-						<div class="col-md-3">
-							<div class="header-logo">
-								<a href="index.html" class="logo">
-									<img src="./img/logo.png" alt="Logo">
-								</a>
-							</div>
-						</div>
-						<!-- /LOGO -->
-	
-						<!-- SEARCH BAR -->
-						<div class="col-md-6">
-							<div class="header-search">
-								<form>
-									<select class="input-select">
-										<option value="0">Hà Nội</option>
-										<option value="1">Tp HCM</option>
-										
-									</select>
-									<input class="input" placeholder="Bạn muốn tìm gì...">
-									<button class="search-btn">Tìm Kiếm</button>
-								</form>
-							</div>
-						</div>
-						<!-- /SEARCH BAR -->
-	
-						<!-- ACCOUNT -->
-						<div class="col-md-3 clearfix">
-							<div class="header-ctn">
-								<!-- Wishlist -->
-								<div>
-									<a href="#">
-										<i class="fa fa-heart-o"></i>
-										<span>Yêu Thích</span>
-										<div class="qty">2</div>
-									</a>
-								</div>
-								<!-- /Wishlist -->
-	
-								<!-- Cart -->
-								<div class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-										<i class="fa fa-shopping-cart"></i>
-										<span>Giỏ Hàng</span>
-										<div class="qty">3</div>
-									</a>
-									<div class="cart-dropdown">
-										<div class="cart-list">
-											<div class="product-widget">
-												<div class="product-img">
-													<img src="./img/product01.png" alt="">
-												</div>
-												<div class="product-body">
-													<h3 class="product-name"><a href="#">product name goes here</a></h3>
-													<h4 class="product-price"><span class="qty">1x</span>$980.00</h4>
-												</div>
-												<button class="delete"><i class="fa fa-close"></i></button>
-											</div>
-	
-											<div class="product-widget">
-												<div class="product-img">
-													<img src="./img/product02.png" alt="">
-												</div>
-												<div class="product-body">
-													<h3 class="product-name"><a href="#">product name goes here</a></h3>
-													<h4 class="product-price"><span class="qty">3x</span>$980.00</h4>
-												</div>
-												<button class="delete"><i class="fa fa-close"></i></button>
-											</div>
-										</div>
-										<div class="cart-summary">
-											<small>3 Item(s) selected</small>
-											<h5>SUBTOTAL: $2940.00</h5>
-										</div>
-										<div class="cart-btns">
-											<a href="#">View Cart</a>
-											<a href="#">Checkout  <i class="fa fa-arrow-circle-right"></i></a>
-										</div>
-									</div>
-								</div>
-								<!-- /Cart -->
-	
-								<!-- Menu Toogle -->
-								<div class="menu-toggle">
-									<a href="#">
-										<i class="fa fa-bars"></i>
-										<span>Menu</span>
-									</a>
-								</div>
-								<!-- /Menu Toogle -->
-							</div>
-						</div>
-						<!-- /ACCOUNT -->
-					</div>
-					<!-- row -->
-				</div>
-				<!-- container -->
-			</div>
-			<!-- /MAIN HEADER -->
-		</header>
-		<!-- /HEADER -->
+
+    <!-- MAIN HEADER -->
+        <div id="header">
+            <!-- container -->
+            <div class="container">
+                <!-- row -->
+                <div class="row">
+                    <!-- LOGO -->
+                    <div class="col-md-3">
+                        <div class="header-logo">
+                            <a href="index.html" class="logo">
+                                <img src="./img/logo.png" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /LOGO -->
+
+                    <!-- SEARCH BAR -->
+                    <div class="col-md-6">
+                        <div class="header-search">
+                            <form>
+                                <select class="input-select">
+
+                                    <option value="0">Hà Nội</option>
+                                    <option value="1">Tp HCM</option>
+
+                                </select>
+                                <input class="input" placeholder="Bạn muốn tìm gì...">
+                                <button class="search-btn">Tìm Kiếm</button>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- /SEARCH BAR -->
+
+                    <!-- ACCOUNT -->
+                    <div class="col-md-3 clearfix">
+                        <div class="header-ctn">
+                            <!-- Wishlist -->
+                            <div>
+                                <a href="#">
+                                    <i class="fa fa-heart-o"></i>
+                                    <span>Yêu Thích</span>
+                                    <div class="qty">0</div>
+                                </a>
+                            </div>
+                            <!-- /Wishlist -->
+
+                            <!-- Cart -->
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span>Giỏ Hàng</span>
+                                    <div class="qty">2</div>
+                                </a>
+                                <div class="cart-dropdown">
+                                    <div class="cart-list">
+                                        <div class="product-widget">
+                                            <div class="product-img">
+                                                <img src="img/ip11/iphone11_1.jpg" alt="">
+                                            </div>
+                                            <div class="product-body">
+                                                <h3 class="product-name"><a href="#">Iphone 11</a></h3>
+                                                <h4 class="product-price"><span class="qty">1x</span>21.190.000đ</h4>
+                                            </div>
+                                            <button class="delete"><i class="fa fa-close"></i>
+                                            </button>
+                                        </div>
+
+                                        <div class="product-widget">
+                                            <div class="product-img">
+                                                <img src="img/ipx/ipxblak.jpg" alt="">
+                                            </div>
+                                            <div class="product-body">
+                                                <h3 class="product-name"><a href="#">Iphone X</a></h3>
+                                                <h4 class="product-price"><span class="qty">1x</span>15.300.000đ</h4>
+                                            </div>
+                                            <button class="delete"><i class="fa fa-close"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="cart-summary">
+                                        <small>2 sản phẩm đã được chọn</small>
+                                        <p>Tổng tiền: <h4 class="product-price">36.490.000đ <del class="product-old-price"></del></h4></p>
+                                    </div>
+                                    <div class="cart-btns">
+                                        <a href="#">Xem Giỏ Hàng</a>
+                                        <a href="checkout.html">Thanh Toán<i class="fa fa-arrow-circle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Cart -->
+
+                            <!-- Menu Toogle -->
+                            <div class="menu-toggle">
+                                <a href="#">
+                                    <i class="fa fa-bars"></i>
+                                    <span>Menu</span>
+                                </a>
+                            </div>
+                            <!-- /Menu Toogle -->
+                        </div>
+                    </div>
+                    <!-- /ACCOUNT -->
+                </div>
+                <!-- row -->
+            </div>
+            <!-- container -->
+        </div>
+        <!-- /MAIN HEADER -->
+    </header>
+    <!-- /HEADER -->
+
 	
 		<!-- NAVIGATION -->
 		<nav id="navigation">
