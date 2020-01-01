@@ -1,76 +1,460 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Google font -->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
-        <title>Quang Hải Store - iPhone, iPad, Macbook, phụ kiện Apple chính hãng, giá tốt nhất</title>
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-                crossorigin="anonymous">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Font Awesome Icon -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <!-- Custom stlylesheet -->
-        <link type="text/css" rel="stylesheet" href="css/basic-form.css"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon.png"/>
+		<title>Quang Hai Store</title>
+
+		 <!-- Google font -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+      <!-- Bootstrap -->
+      <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+      <!-- Slick -->
+      <link type="text/css" rel="stylesheet" href="css/slick.css" />
+      <link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
+      <!-- nouislider -->
+      <link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
+      <!-- Font Awesome Icon -->
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <!-- Custom stlylesheet -->
+      <link type="text/css" rel="stylesheet" href="css/style.css" />
+
     </head>
-    <body>
-<div class="container-register">
-    <div class="login-form">
-        <div class="flex-title">
-            <div class="main-title">Tạo tài khoản</div>
-                <span class="login-here">Bạn đã là thành viên? <a href="login.html">Đăng nhập</a>.</span>
-        </div>
-    </div>
-        <div class="login-container d-flex align-items-center justify-content-center">
-        <form class="login-form text-center">
-            <div class="form-group">
-                <input type="text" class="form-control rounded-pill form-control-lg" placeholder="Tên tài khoản">
+	<body>
+		<!-- BACK TO TOP -->
+             <button onclick="topFunction()" id="myBtn" title="Go to top" ><i class="fa fa-arrow-circle-up" a></i></button>
+		<!-- /BACK TO TOP -->
+		<!-- CHAT  -->
+                 <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v5.0'
+          });
+        };
 
-            </div>
-            <div class="form-group">
-                    <input type="password" class="form-control rounded-pill form-control-lg" placeholder="Email">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control rounded-pill form-control-lg" placeholder="Mật khẩu">
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
 
-            </div>
-            <div class="form-group">
-                    <input type="password" class="form-control rounded-pill form-control-lg" placeholder="Xác nhận mật khẩu">
-            </div>
-        </form>
-        </div>
-                    <div class="login-form">
-                        <label class="checkboxContainer">
-                        <input type="checkbox">
-                        <span class="checkmark"></span>Tôi muốn nhận các thông tin khuyến mãi từ Quang Hải Store.
-                        </label>
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="110900673714157">
+      </div>
+		<!-- /CHAT -->
+		<!-- HEADER -->
+		<header>
+			<!-- TOP HEADER -->
+			<div id="top-header">
+				<div class="container">
+					<ul class="header-links pull-left">
+						<li><a href="#"><i class="fa fa-phone"></i> +84-337-838-313</a></li>
+						<li><a href="#"><i class="fa fa-envelope-o"></i> quanghaistore@gmail.com</a></li>
+						<li><a href="#"><i class="fa fa-map-marker"></i>69/5, Tân Hòa, Đông Hòa, Dĩ An, Bình Dương</a></li>
+					</ul>
+					<ul class="header-links pull-right">
+						<li><a href="#"><i class="fa fa-bell"></i>Thông Báo</a></li>
+						<li><a href="help.html"><i class="fa fa-question-circle"></i>Trợ Giúp</a></li>
+						<li><a href="register.html"><i class="fa fa-user-plus"></i></i>Đăng Kí</a></li>
+						<li><a href="login.html"><i class="fa fa-user"></i></i>Đăng Nhập</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- /TOP HEADER -->
+
+    <!-- MAIN HEADER -->
+        <div id="header">
+            <!-- container -->
+            <div class="container">
+                <!-- row -->
+                <div class="row">
+                    <!-- LOGO -->
+                    <div class="col-md-3">
+                        <div class="header-logo">
+                            <a href="index.html" class="logo">
+                                <img src="./img/logo.png" alt="Logo">
+                            </a>
+                        </div>
                     </div>
-        <div class="login-container d-flex align-items-center justify-content-center">
-        <form class="login-form text-center">
-                <button type="submit" class="btn mt-5 btn-custom btn-block text-uppercase rounded-pill btn-lg">Đăng ký
-                </button>
-        </form>
-    </div>
-    <div class="agree"><span>Tôi đồng ý với Quang Hải Store về </span><span><a href="terms-of-service.html">Điều khoản dịch vụ</a></span> và <span><a href="privacy-policy.html">Chính sách bảo mật</a></span></div>
-        <div class="main-title2">
-            <div class="mb-5 font-weight-light ">- Hoặc đăng ký với -</div>
+                    <!-- /LOGO -->
+
+                    <!-- SEARCH BAR -->
+                    <div class="col-md-6">
+                        <div class="header-search">
+                            <form>
+                                <select class="input-select">
+
+                                    <option value="0">Hà Nội</option>
+                                    <option value="1">TP Hồ Chí Minh</option>
+
+                                </select>
+                                <input class="input" placeholder="Bạn muốn tìm gì...">
+                                <button class="search-btn">Tìm Kiếm</button>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- /SEARCH BAR -->
+
+                    <!-- ACCOUNT -->
+                    <div class="col-md-3 clearfix">
+                        <div class="header-ctn">
+                            <!-- Wishlist -->
+                            <div>
+                                <a href="#">
+                                    <i class="fa fa-heart-o"></i>
+                                    <span>Yêu Thích</span>
+                                    <div class="qty">0</div>
+                                </a>
+                            </div>
+                            <!-- /Wishlist -->
+
+                            <!-- Cart -->
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span>Giỏ Hàng</span>
+                                    <div class="qty">2</div>
+                                </a>
+                                <div class="cart-dropdown">
+                                    <div class="cart-list">
+                                        <div class="product-widget">
+                                            <div class="product-img">
+                                                <img src="img/ip11/iphone11_1.jpg" alt="">
+                                            </div>
+                                            <div class="product-body">
+                                                <h3 class="product-name"><a href="#">Iphone 11</a></h3>
+                                                <h4 class="product-price"><span class="qty">1x</span>21.190.000đ</h4>
+                                            </div>
+                                            <button class="delete"><i class="fa fa-close"></i>
+                                            </button>
+                                        </div>
+
+                                        <div class="product-widget">
+                                            <div class="product-img">
+                                                <img src="img/ipx/ipxblak.jpg" alt="">
+                                            </div>
+                                            <div class="product-body">
+                                                <h3 class="product-name"><a href="#">Iphone X</a></h3>
+                                                <h4 class="product-price"><span class="qty">1x</span>15.300.000đ</h4>
+                                            </div>
+                                            <button class="delete"><i class="fa fa-close"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="cart-summary">
+                                        <small>2 sản phẩm đã được chọn</small>
+                                        <p>Tổng tiền: <h4 class="product-price">36.490.000đ <del class="product-old-price"></del></h4></p>
+                                    </div>
+                                    <div class="cart-btns">
+                                        <a href="#">Xem Giỏ Hàng</a>
+                                        <a href="checkout.html">Thanh Toán<i class="fa fa-arrow-circle-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Cart -->
+
+                            <!-- Menu Toogle -->
+                            <div class="menu-toggle">
+                                <a href="#">
+                                    <i class="fa fa-bars"></i>
+                                    <span>Menu</span>
+                                </a>
+                            </div>
+                            <!-- /Menu Toogle -->
+                        </div>
+                    </div>
+                    <!-- /ACCOUNT -->
+                </div>
+                <!-- row -->
+            </div>
+            <!-- container -->
         </div>
-    <div class="flex-login-btn">
-                    <button class="loginBtn loginBtn--facebook">
-                        Facebook
-                    </button>
-                <br>
-                    <button class="loginBtn loginBtn--google">
-                        Google
-                    </button>
-    </div>
-</div>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </body>
+        <!-- /MAIN HEADER -->
+    </header>
+    <!-- /HEADER -->
+
+		<!-- NAVIGATION -->
+		<nav id="navigation">
+			<!-- container -->
+			<div class="container">
+				<!-- responsive-nav -->
+				<div id="responsive-nav">
+					<!-- NAV -->
+					<ul class="main-nav nav navbar-nav">
+						<li class="active"><a href="index.html"><i class="fa fa-home" style="color: #D10024"></i>&nbsp;Trang Chủ</a></li>
+						<li class=""><a href="promotion.html"><i class="fa fa-gift" style="color: #D10024" ></i>&nbsp;Khuyến Mãi</a></li>
+						<li class=""><a href="store-iphone.html"><i class="fa fa-mobile" style="color: #D10024"></i>&nbsp;IPhone</a></li>
+						<li class=""><a href="store-ipad.html"><i class="fa fa-tablet" style="color: #D10024"></i>&nbsp;IPad</a></li>
+						<li class=""><a href="store-applewatch.html"><i class="fa fa-clock-o" style="color: #D10024"></i>&nbsp;Apple Watch</a></li>
+						<li class=""><a href="store-Macbook.html"><i class="fa fa-laptop"style="color: #D10024" ></i>&nbsp;Macbook</a></li>
+		                 <li class=""><a href="store-phukien-page1.html"><i class="fa fa-headphones" style="color: #D10024"></i>&nbsp;Phụ Kiện</a></li>
+
+                         <li class=""><a href="installment.html"><i class="fa fa-credit-card" style="color: #D10024"></i>&nbsp;Trả Góp</a></li>
+                         <li class=""><a href="news.html"><i class="fa fa-newspaper-o" style="color: #D10024"></i>&nbsp;Tin Tức</a></li> 
+                         <li class=""><a href="contact.html"><i class="fa fa-map-marker" style="color: #D10024"></i>&nbsp;Liên Hệ</a></li>
+
+					</ul>
+					<!-- /NAV -->
+				</div>
+				<!-- /responsive-nav -->
+			</div>
+			<!-- /container -->
+		</nav>
+		<!-- /NAVIGATION -->
+
+		<!-- BREADCRUMB -->
+		<div id="breadcrumb" class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="breadcrumb-tree">
+							<li><a href="index.html">Trang Chủ</a></li>
+							<li class="active">Đăng ký</li>
+						</ul>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /BREADCRUMB -->
+
+		<!-- SECTION -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+
+					<div class="col-md-5" style="margin-left: 30%;padding-bottom: 10px">
+						<!-- Form REGISTER -->
+						<div class="billing-details">
+							<div class="section-title">
+								<div class="flex-title">
+									<h4 class="title">Tạo tài khoản</h4>
+									<span class="login-here">Bạn đã là thành viên? <a href="login.html" style="color: #0052cc;">Đăng nhập</a>.</span>
+								</div>
+							</div>
+							<div class="form-group">
+								<span style="color: #333;font-size: 12px;">Tên tài khoản</span><small font-size=12px; style="padding-left: 1px;font-size: 12px;">*</small>
+								<input class="input" type="text" name="user-name" placeholder="Tên tài khoản" >
+							</div>
+							<div class="form-group">
+								<span style="color: #333;font-size: 12px;>">Email</span><small font-size=12px; style="padding-left: 1px;font-size: 12px;">*</small>
+								<input class="input" type="email" name="email" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<span style="color: #333;font-size: 12px;">Mật khẩu</span><small font-size=12px; style="padding-left: 1px;font-size: 12px;">*</small>
+								<input class="input" type="password" name="password" placeholder="Tối thiểu 6 kí tự bao gồm cả chữ và số">
+							</div>
+							<div class="form-group">
+								<span style="color: #333;font-size: 12px;>">Xác nhận mật khẩu</span><small font-size=12px; style="padding-left: 1px;font-size: 12px;">*</small>
+								<input class="input" type="password" name="password" placeholder="Xác nhận mật khẩu">
+							</div>
+							<div class="form-group">
+								<div class="input-checkbox">
+									<input type="checkbox" id="payment-order">
+									<label for="payment-order">
+										<span></span>Tôi muốn nhận các thông tin khuyến mãi từ Quang Hải Store.
+									</label>
+								</div>
+							</div>
+							<div class="form-group">
+									<a href="#" class="primary-btn order-submit" style="width: 100%">Đăng ký</a>
+							</div>
+							 <div class="agree"><span>Tôi đồng ý với Quang Hải Store về </span><span><a href="terms-of-service.html" style="color: #0052cc;">Điều khoản dịch vụ</a></span> và <span><a href="privacy-policy.html" style="color: #0052cc;">Chính sách bảo mật</a></span></div>
+
+							  <div class="main-title2">
+            					<div class="mb-5 font-weight-light ">- Hoặc đăng ký với -</div>
+        					</div>
+								<div class="flex-login-btn">
+								<button class="loginBtn loginBtn--facebook">
+								Facebook
+								</button>
+								<br>
+								<button class="loginBtn loginBtn--google">
+								Google
+								</button>
+								</div>
+						</div>
+						</div>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /SECTION -->
+
+
+<!-- FOOTER -->
+    <footer id="footer">
+        <!-- top footer -->
+        <div class="section">
+            <!-- container -->
+            <div class="container">
+                <!-- row -->
+                <div class="row">
+                    <div class="col-md-3 col-xs-6">
+                        <div class="footer">
+                            <h3 class="footer1"><i class="fa fa-question-circle"></i> Hỗ trợ khách hàng</h3>
+                            <div class="hotline-footer">
+                                <ul>
+                                    <li>
+                                            <strong>HotLine:</strong>
+                                            <b>
+                                                <a href="tel:0388929625">0388929625</a>
+                                                <span>(8:00-23:00 kể cả T7,Cn)</span>
+                                            </b>
+                                    </li>
+                                </ul>
+                                <ul>
+                                        <li>
+                                                <strong>Khiếu nại, đóng góp ý kiến:</strong>
+                                                <b>
+                                                    <a href="tel:035687598">035687598</a>
+                                                    <span>(8:00-23:00 kể cả T7,Cn)</span>
+                                                </b>
+                                        </li>
+                                    </ul>
+                            </div>
+                            <div class="content">
+                                    <ul>
+                                            <li>
+                                                    <a href="#">Tìm hiểu về chính sách bảo hành</a>
+                                            </li>
+                                            <li><a href="#">
+                                                    Giao hàng & Thanh toán.</a></li>
+                                            <li><a href="#	">
+                                                    Hướng dẫn mua Online.</a></li>
+                                        </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                            <div class="footer ">
+                                <h3 class="footer1"><i class="fa fa-home" aria-hidden="true"></i> Quanghaistore</h3>
+                                <a href="#"><p>Tuyển dụng</p></a>
+                                <a href="#"><p>Khuyến mãi</p></a>
+                                <a href="#"><p>Liên hệ</p></a>
+                                <a href="#"><p>Hỏi đáp</p></a>
+                                <a href="#"><p>Tra cứu bảo hành</p></a>
+                            </div>
+                        </div>
+
+                    <div class="col-md-3 col-xs-6">
+                        <div class="row">
+                        <div class="footer">
+                            <h3 class="footer1">
+                                <i class="fa fa-credit-card-alt" aria-hidden="true"></i> Phương thức thanh toán</h3>
+                            <div class="footer-thanhtoan">
+                                <a href="installment.html" style="background:url(img/footer/thanhtoan1.png)">
+                                </a>
+                                <a href="installment.html" style="background:url(img/footer/thanhtoan2.png)">
+                                </a>
+                                <a href="installment.html" style="background:url(img/footer/thanhtoan3.png)">
+                                </a>
+                                <a href="installment.html" style="background:url(img/footer/thanhtoan4.png)">
+                                </a>
+                            </div>
+                            <h3 class="footer1"><i class="fa fa-truck" aria-hidden="true"></i> Hình thức vận chuyển</h3>
+                            <img class ="thanhtoan" src="img/vanchuyen.jpg">
+                    </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3 col-xs-6">
+                        <div class="footer">
+                            <h3 class="footer1" ><i class="fa fa-map-marker"></i> Hệ Thống Cửa hàng</h3>
+                            <div class="col ">
+                                <ul>
+                                    <li><i class="fa fa-location-arrow"></i>
+                                        <strong>69/05 Tân Hòa, Đông Hòa, TX Dĩ An, Bình Dương</strong>
+                                    </li>
+                                </ul>
+                                <ul>
+                                        <li><i class="fa fa-location-arrow"></i>
+                                            <strong>64 Võ văn Ngân, Thủ Đức, Tp HCM</strong>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /row -->
+            </div>
+            <!-- /container -->
+        </div>
+        <!-- /top footer -->
+
+    </footer>
+    <!-- /FOOTER -->
+
+		<!-- jQuery Plugins -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/nouislider.min.js"></script>
+		<script src="js/jquery.zoom.min.js"></script>
+		<script src="js/main.js"></script>
+
+<script type="text/javascript">
+	// interval is in milliseconds. 1000 = 1 second -> so 1000 * 10 = 10 seconds
+$('.carousel').carousel({
+  interval: 1000 * 2
+});
+</script>
+		<!-- SCRIPT GO TO TOP -->
+		<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+		<!-- /SCRIPT GO TO TOP -->
+<script>
+// When the user clicks on <div>, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+<script>$(".toggle-password").click(function() {
+
+  $(this).toggleClass("fa-eye fa-eye-slash");
+  var input = $($(this).attr("toggle"));
+  if (input.attr("type") == "password") {
+    input.attr("type", "text");
+  } else {
+    input.attr("type", "password");
+  }
+});</script>
+	</body>
 </html>
