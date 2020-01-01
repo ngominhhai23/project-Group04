@@ -2008,7 +2008,7 @@ textarea.input {
 
 #footer {
   color: #B9BABC;
-  background-color: #15161D;
+  background-color: #ffffff;
   border-top: 3px solid #D10024;
 }
 
@@ -2356,7 +2356,7 @@ padding: 15px 15px 0;
   padding-bottom: 20px;
   font-weight: bold;
   color:
-      #fff;
+      # #2B2D42;;
   }
   .thanhtoan{
     width: 100%;
