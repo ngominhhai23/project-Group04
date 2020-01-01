@@ -3022,10 +3022,92 @@ button#ShowMore {
     margin-top:15px;
     margin-bottom: 15px;
 }
+.wishlist{
+  cursor: pointer;
+    font-size: 16px;
+    color: #D10024;
+}
+/* input quantity number */
+input[type="number"] {
+  -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+          appearance: textfield;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+.number-input button {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+}
+.number-input button:before,
+.number-input button:after {
+  display: inline-block;
+  position: absolute;
+  content: '';
+  height: 2px;
+  transform: translate(-50%, -50%);
+}
+.number-input button.plus:after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+.number-input input[type=number] {
+  text-align: center;
+}
+
+
+.md-number-input.number-input {
+  border: 1px solid #ddd;
+  width: 10rem;
+}
+.md-number-input.number-input button {
+  outline: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-top: 0.5rem;
+}
+.md-number-input.number-input button.minus {
+  padding-left: 2px;
+}
+.md-number-input.number-input button.plus {
+  padding-left: 5px;
+}
+.md-number-input.number-input button:before,
+.md-number-input.number-input button:after {
+  width: 1rem;
+  background-color: #333;
+}
+.md-number-input.number-input input[type=number] {
+  max-width: 3rem;
+  padding: .5rem;
+  border: solid #ddd;
+  border-width: 0 1px;
+  height: 2.5rem;
+  outline: none;
+}
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+  .number-input.md-number-input.safari_only button:before,
+  .number-input.md-number-input.safari_only button:after {
+    margin-top: -.6rem;
+  }
+}}
+/* end/ */
+
 .momo{
     margin-top: 15px;
     margin-bottom: 15px;
     padding-left: 20px;
+}
+.contact{
+  margin-bottom: 1.5em;
 }
 /* input1 */
 
